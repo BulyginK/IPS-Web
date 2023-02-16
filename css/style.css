@@ -1,0 +1,11 @@
+.main__text {
+    font: normal 24px/35px 'Oxygen', sans-serif;
+}
+
+.footer {
+    background-image: url(/picture/footer.jpg);
+}
+
+.footer__link {
+    text-transform: uppercase;
+}
