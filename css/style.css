@@ -4,8 +4,10 @@
 }
 
 .header {
-    background-image: url(/picture/header_fon.jpg);
-    height: 500px;
+    background: url(/picture/header_fon.jpg) no-repeat;
+    min-height: 500px;
+    text-align: center;
+    background-size: 100%;
 }
 
 .header__nav {
