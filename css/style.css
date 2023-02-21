@@ -1,3 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-image: url(/picture/header_fon.jpg);
+    height: 500px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 940px;
+    height: 74px;
+    margin: 0 auto;
+}
+
+.header__nav__name {
+    font: normal 26px/26px 'Lora', sans-serif;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+}
+
+.header__nav__item {
+    font: normal 12px/20px 'Oxygen', sans-serif;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.header__title {
+    font: normal 50px/51px 'Lora', sans-serif;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
 .main__text {
     font: normal 24px/35px 'Oxygen', sans-serif;
 }
