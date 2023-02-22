@@ -5,27 +5,31 @@
 
 .header {
     background: url(/picture/header_fon.jpg) no-repeat;
-    min-height: 500px;
+    height: 500px;
     text-align: center;
     background-size: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.header__nav {
+.header__nav-block {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 940px;
+    width: 940px;
     height: 74px;
     margin: 0 auto;
 }
 
-.header__nav__name {
+/* привет */
+
+.header__label {
     font: normal 26px/26px 'Lora', sans-serif;
     letter-spacing: 0.6px;
     color: #FFFFFF;
 }
 
-.header__nav__item {
+.header__nav-item {
     font: normal 12px/20px 'Oxygen', sans-serif;
     letter-spacing: 0.6px;
     text-transform: uppercase;
