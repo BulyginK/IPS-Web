@@ -21,9 +21,6 @@
     margin: 0 auto;
 }
 
-/* привет */
-/* привет */
-
 .header__label {
     font: normal 26px/26px 'Lora', sans-serif;
     letter-spacing: 0.6px;
@@ -39,10 +36,34 @@
     padding: 0 20px;
 }
 
+.header__title-block {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .header__title {
+    margin-bottom: 20px;
     font: normal 50px/51px 'Lora', sans-serif;
     letter-spacing: 2px;
     color: #FFFFFF;
+}
+
+.header__slogan {
+    font: normal 17px/20px 'Oxygen', sans-serif;
+    color: rgba(255, 255, 255, 0.631);
+}
+
+.header__button {
+    width: 167px;
+    height: 44px;
+    margin: 31px auto 0;
+    font: normal 13px/20px 'Oxygen', sans-serif;
+    color: #FFFFFF;
+    background: #DD783F;
+    border-radius: 3px;
+    border: 0px solid;
 }
 
 .main__text {
