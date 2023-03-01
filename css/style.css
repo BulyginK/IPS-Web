@@ -21,7 +21,7 @@
 
 .header__nav-item {
     padding: 0 20px;
-    font: normal 12px/20px 'Oxygen', sans-serif;
+    font: 12px/20px 'Oxygen', sans-serif;
     letter-spacing: 0.6px;
     text-transform: uppercase;
     text-decoration: none;
@@ -30,13 +30,13 @@
 
 .header__title {
     padding: 103px 0 20px;
-    font: normal 50px/51px 'Lora', sans-serif;
+    font: 50px/51px 'Lora', sans-serif;
     letter-spacing: 2px;
     color: #FFFFFF;
 }
 
 .header__slogan {
-    font: normal 17px/20px 'Oxygen', sans-serif;
+    font: 17px/20px 'Oxygen', sans-serif;
     color: rgba(255, 255, 255, 0.631);
 }
 
@@ -46,7 +46,7 @@
     margin: 31px auto 0;
     border-radius: 3px;
     border: 0px solid;
-    font: normal 13px/20px 'Oxygen', sans-serif;
+    font: 13px/20px 'Oxygen', sans-serif;
     background: #DD783F;
     color: #FFFFFF;
 }
@@ -56,31 +56,33 @@
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    max-width: 940px;
+    max-width: 960px;
     height: 78px;
     margin: 0 auto;
 }
 
 .nav-block__item {
-    font: normal 14px/20px 'Lora', sans-serif;
+    font: 14px/20px 'Lora', sans-serif;
     text-decoration: none;
     color: #768088;
 }
 
 .main-block {
     text-align: center;
-    padding: 60px 240px 41px;
+    padding: 60px 240px 30px;
     background-color: #F7F7F7;
 }
 
 .main-block__chapter {
-    padding-bottom: 67px;
+    max-width: 960px;
+    padding-bottom: 60px;
+    margin: 0 auto;
 }
 
 .main-block__headlines {
     position: relative;
     margin-bottom: 33px;
-    font: normal 20px/27px 'Oxygen', sans-serif;
+    font: 20px/27px 'Oxygen', sans-serif;
     letter-spacing: 2px;
     color: #2E2E2E;
 }
@@ -125,17 +127,17 @@
     vertical-align: middle;
     padding: 6px 9px 7px;
     border-radius: 2px;
-    font: normal 12px/13px 'Oxygen', sans-serif;
+    font: 12px/13px 'Oxygen', sans-serif;
     text-transform: uppercase;
     background-color: #DD783F;
 }
 
 .top-card__title {
-    font: normal 27px/30px 'Lora', sans-serif;
+    font:  27px/30px 'Lora', sans-serif;
 }
 
 .top-card__description {
-    font: normal 14px/25px 'Oxygen', sans-serif;
+    font: 14px/25px 'Oxygen', sans-serif;
     color: rgba(255, 255, 255, 0.7);
 }
 
@@ -144,13 +146,46 @@
 }
 
 .top-card__name {
-    font: normal 11px/35px 'Oxygen', sans-serif;
+    font: 11px/35px 'Oxygen', sans-serif;
     color: rgba(255, 255, 255, 0.7);
 }
 
 .top-card__date {
-    font: normal 12px/35px 'Oxygen', sans-serif;
+    font: 12px/35px 'Oxygen', sans-serif;
     color: rgba(255, 255, 255, 0.7);
+}
+
+.cards-block__secondary-card {
+    width: 296px;
+    height: 291px;
+    margin: 6px 12px 19px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+}
+
+.secondary-card__title {
+    font: 16px/21px 'Lora', sans-serif;
+    color: #101315;
+}
+
+.secondary-card__description {
+    font: 13px/19px 'Oxygen', sans-serif;
+    color: #7A7A7A;
+    border-bottom: 1px solid #EFEFEF;;
+}
+
+.secondary-card__avatar {
+    border-radius: 60px;
+}
+
+.secondary-card__name {
+    font: 11px/35px 'Oxygen', sans-serif;
+    color: #999999;
+}
+
+.secondary-card__date {
+    font: 12px/35px 'Oxygen', sans-serif;
+    color: #999999;
 }
 
 .footer {
@@ -166,7 +201,7 @@
 
 .footer__link {
     padding-left: 20px;
-    font: normal 11px/26px 'Oxygen', sans-serif;
+    font:  11px/26px 'Oxygen', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
