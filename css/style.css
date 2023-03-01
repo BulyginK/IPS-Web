@@ -90,6 +90,7 @@
     position: absolute;
     top: 43px;
     left: 40%;
+    right: 40%;
     width: 188px;
     height: 1px;
     background: #DEDEDE;
@@ -106,6 +107,7 @@
     height: 280px;
     margin: 7px 10px;
     border-radius: 3px;
+    color: #FFFFFF;
 }
 
 .cards-block__top-card_background_the-road-ahead {
@@ -118,15 +120,37 @@
 }
 
 .top-card__icon {
-    /* display  : block; */
-    vertical-align: middle;
-    padding: 6px 9px 7px;
     width: 87px;
     height: 26px;
+    vertical-align: middle;
+    padding: 6px 9px 7px;
     border-radius: 2px;
     font: normal 12px/13px 'Oxygen', sans-serif;
     text-transform: uppercase;
     background-color: #DD783F;
+}
+
+.top-card__title {
+    font: normal 27px/30px 'Lora', sans-serif;
+}
+
+.top-card__description {
+    font: normal 14px/25px 'Oxygen', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.top-card__avatar {
+    border-radius: 60px;
+}
+
+.top-card__name {
+    font: normal 11px/35px 'Oxygen', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.top-card__date {
+    font: normal 12px/35px 'Oxygen', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .footer {
