@@ -69,7 +69,7 @@
 
 .main-block {
     text-align: center;
-    padding: 60px 250px 41px;
+    padding: 60px 240px 41px;
     background-color: #F7F7F7;
 }
 
@@ -79,7 +79,7 @@
 
 .main-block__headlines {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 33px;
     font: normal 20px/27px 'Oxygen', sans-serif;
     letter-spacing: 2px;
     color: #2E2E2E;
@@ -97,21 +97,36 @@
 
 .chapter__cards-block {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.cards-block__card {
+.cards-block__top-card {
     width: 460px;
     height: 280px;
+    margin: 7px 10px;
+    border-radius: 3px;
 }
 
-.cards-block__card-background-the-road-ahead {
+.cards-block__top-card_background_the-road-ahead {
     background: url(/img/the-road-ahead.jpg);
-    background-size: contain;
+    background-size: 100% 100%;
 }
 
-.cards-block__card-background-from-top-down {
+.cards-block__top-card_background_from-top-down {
     background: url(/img/from-top-down.jpg);
-    background-size: contain;
+}
+
+.top-card__icon {
+    /* display  : block; */
+    vertical-align: middle;
+    padding: 6px 9px 7px;
+    width: 87px;
+    height: 26px;
+    border-radius: 2px;
+    font: normal 12px/13px 'Oxygen', sans-serif;
+    text-transform: uppercase;
+    background-color: #DD783F;
 }
 
 .footer {
